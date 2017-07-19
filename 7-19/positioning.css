@@ -1,0 +1,33 @@
+p{
+	text-align: center;
+	width: 28%;
+	position: relative;
+	left: 30%;
+}
+
+.parent{
+	position: relative;
+	height: 200px;
+	width: 400px;
+	background: darkgray;
+	left: 30%;
+
+}
+
+.child{
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	background: black;
+	top: 45%;
+	left: 65%;
+}
+
+.box-1{
+
+}
+
+h1{
+	position: relative;
+	left: 32%
+}
