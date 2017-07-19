@@ -1,6 +1,15 @@
+body{
+	margin-right: 20%
+}
+
+h1{
+	position: relative;
+	left: 30%
+}
+
 p{
-	text-align: center;
-	width: 28%;
+	text-align: left;
+	width: 60%;
 	position: relative;
 	left: 30%;
 }
@@ -14,20 +23,24 @@ p{
 
 }
 
-.child{
+.box-1{
 	position: absolute;
 	height: 100px;
 	width: 200px;
-	background: black;
-	top: 45%;
+	background: blue;
+	bottom: -8%;
 	left: 65%;
 }
 
-.box-1{
-
+.box-2{
+	position: fixed;
+	height: 100px;
+	width: 200px;
+	background: gray;
+	top: -2%;
+	left: -3.2%;
 }
 
-h1{
-	position: relative;
-	left: 32%
-}
+
+
+
