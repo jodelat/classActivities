@@ -1,0 +1,22 @@
+header{
+	background: black;
+}
+
+.button:hover {
+	background-color: red;
+	color: blue;
+}
+
+.button:default{
+	background-color: green;
+}
+
+a:active {
+	background-color: yellow;
+	color: yellow;
+}
+
+
+.textfield:focus{
+	background-color: yellow;
+}
