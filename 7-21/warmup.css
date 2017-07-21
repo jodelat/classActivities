@@ -1,0 +1,12 @@
+.jumbotron{
+	height: 500px;	
+	width: 500px;
+}
+
+.jumbotron div h1{
+	color: black;
+}
+
+body{
+	background-color: #666666;
+}
