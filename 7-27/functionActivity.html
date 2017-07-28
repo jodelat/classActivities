@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>functionActivity</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+    function multiplyBy5(num){
+      var a = num * 5;
+      return a;
+    }
+    var x = multiplyBy5(2);
+    console.log(x);
+
+    function printStr(str){
+      var log = console.log(str);
+      return log;
+    }
+
+    var y = printStr("Hii");
+    console.log(y);
+
+    function isTruthy(troof){
+      if(troof == true){
+        console.log(troof +  " " + "is true");
+      }
+      else{
+        console.log(troof + " " + "is false");
+      }
+      return troof;
+    }
+
+    var w = isTruthy("string");
+
+
+    </script>
+
+  </body>
+</html>
